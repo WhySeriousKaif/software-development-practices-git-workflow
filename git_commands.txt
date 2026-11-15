@@ -9,11 +9,11 @@ Renames the current default branch to main.
 3. git status
 Displays the current branch and the state of tracked, modified, staged, and untracked files.
 
-4. git config user.name "My Name"
-Configures the name attached to commits in this repository.
+4. git config user.name
+Displays the username currently configured for Git commits.
 
-5. git config user.email "My GitHub Email"
-Configures the email address attached to commits in this repository.
+5. git config user.email
+Displays the email address currently configured for Git commits.
 
 6. git add index.html about.html
 Stages index.html and about.html for the initial commit.
@@ -69,11 +69,20 @@ Stages the .gitignore file.
 23. git commit -m "Add Git ignore rules"
 Records the ignore rules for .log files and the temp folder.
 
-24. git commit -m "Add temporary demonstration message"
+24. git add index.html
+Stages the temporary change made to index.html.
+
+25. git commit -m "Add temporary demonstration message"
 Creates an additional commit for demonstrating the undo operation.
 
-25. git revert --no-edit HEAD
+26. git revert --no-edit HEAD
 Safely reverses the latest commit by creating a new revert commit.
 
-26. git show --stat --oneline HEAD
+27. git show --stat --oneline HEAD
 Displays a short summary and file statistics for the latest commit.
+
+28. git add git_commands.txt
+Stages the Git command documentation file.
+
+29. git commit -m "Add Git command documentation"
+Records the command documentation in the repository history.
