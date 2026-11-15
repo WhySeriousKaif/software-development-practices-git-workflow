@@ -1,0 +1,79 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git init
+Initializes a new local Git repository in the current project folder.
+
+2. git branch -M main
+Renames the current default branch to main.
+
+3. git status
+Displays the current branch and the state of tracked, modified, staged, and untracked files.
+
+4. git config user.name "My Name"
+Configures the name attached to commits in this repository.
+
+5. git config user.email "My GitHub Email"
+Configures the email address attached to commits in this repository.
+
+6. git add index.html about.html
+Stages index.html and about.html for the initial commit.
+
+7. git commit -m "Add initial website pages"
+Records the initial version of the two website pages.
+
+8. git log --oneline
+Displays the commit history in a compact one-line format.
+
+9. git diff
+Displays unstaged changes made to the project files.
+
+10. git add index.html
+Stages the modified home page for the second commit.
+
+11. git commit -m "Add project goals to home page"
+Records the new project-goals section in the repository history.
+
+12. git log --oneline --decorate
+Displays compact history with branch and HEAD labels.
+
+13. git branch feature
+Creates a new branch named feature.
+
+14. git switch feature
+Changes the active working branch from main to feature.
+
+15. git branch
+Lists the local branches and marks the active branch with an asterisk.
+
+16. git add index.html about.html
+Stages the changes made while working on the feature branch.
+
+17. git commit -m "Add version control benefits on feature branch"
+Records the feature-branch changes as a separate commit.
+
+18. git log --oneline --decorate --graph --all
+Displays a graphical history containing every branch and its commits.
+
+19. git switch main
+Changes the active branch back to main.
+
+20. git merge --no-ff feature -m "Merge feature branch into main"
+Merges feature into main and creates an explicit merge commit.
+
+21. git status --ignored
+Displays normal repository status along with files excluded by .gitignore.
+
+22. git add .gitignore
+Stages the .gitignore file.
+
+23. git commit -m "Add Git ignore rules"
+Records the ignore rules for .log files and the temp folder.
+
+24. git commit -m "Add temporary demonstration message"
+Creates an additional commit for demonstrating the undo operation.
+
+25. git revert --no-edit HEAD
+Safely reverses the latest commit by creating a new revert commit.
+
+26. git show --stat --oneline HEAD
+Displays a short summary and file statistics for the latest commit.
