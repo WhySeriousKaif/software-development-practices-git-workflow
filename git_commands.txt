@@ -86,3 +86,33 @@ Stages the Git command documentation file.
 
 29. git commit -m "Add Git command documentation"
 Records the command documentation in the repository history.
+
+30. git add git_commands.txt
+Stages the corrections made to the Git command documentation.
+
+31. git commit -m "Correct Git command documentation"
+Records the corrected Git command descriptions.
+
+32. git remote add origin https://github.com/WhySeriousKaif/software-development-practices-git-workflow.git
+Connects the local repository to the public GitHub repository using the name origin.
+
+33. git remote -v
+Displays the fetch and push URLs configured for the remote repository.
+
+34. git push -u origin main
+Uploads the main branch and its complete commit history to GitHub and configures upstream tracking.
+
+35. git push -u origin feature
+Uploads the feature branch to GitHub and configures its upstream tracking.
+
+36. git branch -vv
+Displays local branches together with their latest commits and remote tracking branches.
+
+37. git add git_commands.txt
+Stages the final GitHub command documentation.
+
+38. git commit -m "Document GitHub integration commands"
+Records the completed GitHub command documentation.
+
+39. git push origin main
+Uploads the final documentation commit to the main branch on GitHub.
